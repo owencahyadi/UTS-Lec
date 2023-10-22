@@ -91,7 +91,7 @@
             echo '</div>';
             echo '</div>';
         }
-        $kategoriArray = ["seasonalMenu", "waffle", "dessert", "lunch", "food", "morning", "coffee", "tea", "softdrink", "alcohol"];
+        $kategoriArray = ["coffee"];
         foreach ($kategoriArray as $kategori) {
             generateCategoryContainer($data, $kategori);
         }

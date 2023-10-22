@@ -225,3 +225,4 @@ if (pageTitle.text === "Leblanc - Restaurant") {
     window.addEventListener("click", boxModelFun);
     boxModelArrow.addEventListener("click", boxModelFun);
 }
+

@@ -53,7 +53,7 @@
             <a href="menu8.php" class="btn filter-btn">Tea</a>
             <a href="menu9.php" class="btn filter-btn">Softdrink</a>
             <a href="menu10.php" class="btn filter-btn">Alcohol</a>
-        </div>
+
     </div>
     
     <?php
@@ -91,7 +91,7 @@
             echo '</div>';
             echo '</div>';
         }
-        $kategoriArray = ["seasonalMenu", "waffle", "dessert", "lunch", "food", "morning", "coffee", "tea", "softdrink", "alcohol"];
+        $kategoriArray = ["seasonalMenu"];
         foreach ($kategoriArray as $kategori) {
             generateCategoryContainer($data, $kategori);
         }
