@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
@@ -43,8 +42,8 @@
         <h1 class="title mt-4 mb-1" id="title">Menu</h1>
         <div class="row filter-btn-row">
         <div class="col-lg-12 mb-5">
-            <a href="menu.php" class="btn filter-btn active">All</a>
-            <a href="menu1.php" class="btn filter-btn">Seasonal Menu</a>
+            <a href="menu.php" class="btn filter-btn">All</a>
+            <a href="menu1.php" class="btn filter-btn active">Seasonal Menu</a>
             <a href="menu2.php" class="btn filter-btn">Waffle</a>
             <a href="menu3.php" class="btn filter-btn">Dessert</a>
             <a href="menu4.php" class="btn filter-btn">Lunch</a>
@@ -54,7 +53,6 @@
             <a href="menu8.php" class="btn filter-btn">Tea</a>
             <a href="menu9.php" class="btn filter-btn">Softdrink</a>
             <a href="menu10.php" class="btn filter-btn">Alcohol</a>
-        </div>
     </div>
     
     <?php
@@ -92,7 +90,7 @@
             echo '</div>';
             echo '</div>';
         }
-        $kategoriArray = ["seasonalMenu", "waffle", "dessert", "lunch", "food", "morning", "coffee", "tea", "softdrink", "alcohol"];
+        $kategoriArray = ["seasonalMenu"];
         foreach ($kategoriArray as $kategori) {
             generateCategoryContainer($data, $kategori);
         }

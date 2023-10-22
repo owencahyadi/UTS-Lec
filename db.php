@@ -1,5 +1,5 @@
 <?php
-    define('DSN', 'mysql:host=localhost;port=3308;dbname=restoran');
+    define('DSN', 'mysql:host=localhost;port=3303;dbname=restoran');
     define('DBUSER', 'root');
     define('DBPASS', '');
 
