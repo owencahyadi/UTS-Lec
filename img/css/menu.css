@@ -1,0 +1,43 @@
+.title {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0 0 -55px;
+    color: #a96700;
+}
+
+.leblanc{
+    width: 120px;
+}
+
+.menuTitle{
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    border: none;
+    background-color: #E4DFDD;
+}
+
+.row .card:nth-child(5n+2) {
+    background-color: #ECE8E2;
+}
+
+.row .card:nth-child(5n+3) {
+    background-color: #E4DFDD;
+}
+
+.row .card:nth-child(5n+4) {
+    background-color: #EDE1DB;
+}
+
+.row .card:nth-child(5n+5) {
+    background-color: #F7F3F2;
+}
+
