@@ -56,10 +56,10 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     $(".btn").click(function() {
         $(".btn").removeClass("active"); // Hapus class active dari semua tombol
         $(this).addClass("active"); // Tambahkan class active ke tombol yang diklik
     });
 });
-// tambahan jason//
+// tambahan jason//*/
