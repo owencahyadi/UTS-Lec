@@ -6,8 +6,8 @@ $(document).ready(function(){
         filterBtns.click(function(event){
             /*Takes care of highlighting current filter*/
             event.preventDefault();
-            $('.selected').removeClass('selected');
-            $(this).addClass('selected');
+            $('.active').removeClass('active');
+            $(this).addClass('active');
     
             /*Takes care of showing correct cards*/
             var currentFilter = $(this).attr('data-filter');
