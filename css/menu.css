@@ -71,12 +71,12 @@ body{
 }
 
 .col {
-    transition: 0.3s ease;
+    transition: filter 0.3s ease;
 }
 
-/* .col:hover{
-
-} */
+ .col:hover{
+    filter: blur(5px);
+} 
 /*display: inline-block;
 padding: 10px 20px;
 color: #FFF4c2;

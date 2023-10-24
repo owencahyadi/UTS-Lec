@@ -126,7 +126,6 @@ if (isset($_GET['id'])) {
         echo '</dl>';
         echo '<div class="menuCopy">' . $menuItem['deskripsi'];
         echo '<div class="cart-wrapper">';
-        // Tambahkan tombol "Add to Cart" dengan tautan ke mycart.php
         echo '<form action="mycart.php" method="post">';
         echo '<input type="hidden" name="idmenu" value="' . $menuItem['idmenu'] . '">';
         echo '<input type="hidden" name="namamenu" value="' . $menuItem['namamenu'] . '">';
